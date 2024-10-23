@@ -31,6 +31,10 @@ const next = Ember.run.next;
 const setProperties = Ember.setProperties;
 
 /*!!!!!!!!!!!GLOBAL CONST END!!!!!!!!!!!*/
+
+/*!!!!!!!!!!!KAMATERA CONST START!!!!!!!*/
+/*!!!!!!!!!!!KAMATERA CONST END!!!!!!!!!*/
+
 const domains = '*.otc.t-systems.com'
 const clusterFlavors = [
     'cce.s1.small',
@@ -253,6 +257,7 @@ const languages = {
                 'General cluster configuration',
                 'Next: Network configuration',
             ),
+            clusterDatacenter:        field('Datacenter'),
             clusterType:             field(
                 'Cluster Type'
             ),
